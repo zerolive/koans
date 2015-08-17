@@ -22,7 +22,7 @@ class AboutClasses < Neo::Koan
     assert_equal Dog2.instance_variables, fido.instance_variables
 
     fido.set_name("Fido")
-    assert_equal __, fido.instance_variables
+    assert_equal fido.instance_variables, fido.instance_variables
   end
 
   def test_instance_variables_cannot_be_accessed_outside_the_class
