@@ -24,8 +24,18 @@
 
 class score
 	attr :points
-	def calcu
+	def calcu (tiradas[])
+		t0 = tiradas[0]
+		t1 = tiradas[1]
+		t2 = tiradas[2]
+		t3 = tiradas[3]
+		t4 = tiradas[4]
+	end
 end
+score1 = score.new
+score2 = score.new
+
+
 
  p "Jugador 1: #{player1.values}"
  p "Jugador 2: #{player2.values}"
