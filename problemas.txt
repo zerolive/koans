@@ -1,2 +1,3 @@
 about_class_methods.rb ? 44
 about_exceptions.rb
+about_proxy_object_project.rb
