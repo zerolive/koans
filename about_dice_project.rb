@@ -7,7 +7,7 @@ require File.expand_path(File.dirname(__FILE__) + '/neo')
   def roll (number)
     @values = []
     while number > 0 do
-      number = number - 1
+      number -= 1
       @values.push(1 + rand(6))
     end
   end
