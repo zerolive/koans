@@ -3,7 +3,7 @@ require File.expand_path(File.dirname(__FILE__) + '/neo')
 class AboutErrorsMyOwnKoan < Neo::Koan
   
   #FIX DIFERENTS ERRORS
-  #Fix this ArgumentError. maybe we have many numbers
+  #Fix this ArgumentError. Maybe we have many numbers
   [1, 2, 3].first(4, 6)
 
   #Fix this SystaxError. Could be eval doesn't take some simbol
